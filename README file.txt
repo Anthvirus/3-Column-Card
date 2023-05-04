@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
-- Live Site URL:
+- Solution URL: https://github.com/Anthvirus/3-Column-Card
+- Live Site URL: https://anthvirus.github.io/3-Column-Card/
 
 ## My process
 
