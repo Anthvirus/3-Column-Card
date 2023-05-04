@@ -22,7 +22,7 @@ main{
     padding: 3.125rem;
     font-weight: 700;
     line-height: 1.5rem;
-    font-family: 'Big Shoulders Display';
+    font-family: 'specimen', 'Big Shoulders Display';
     border: 1px solid inherit;
     display: block;
     flex-wrap: wrap;
