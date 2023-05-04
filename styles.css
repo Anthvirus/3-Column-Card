@@ -1,0 +1,92 @@
+@import url('https://fonts.google.com/specimen/Lexend+Deca');
+@import url('https://fonts.google.com/specimen/Big+Shoulders+Display');
+
+
+body{
+    height: 100vh;
+    background-color:  hsl(0, 0%, 95%);
+    margin: auto;
+    display: flex;
+    padding: 0;
+}
+main{
+    max-width: 55rem;
+    box-sizing: border-box;
+    margin: auto
+}
+.main-box{
+    display: inline-flex;
+    margin: auto;
+}
+.component-box{
+    padding: 3.125rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    font-family: 'Big Shoulders Display';
+    border: 1px solid inherit;
+    display: block;
+    flex-wrap: wrap;
+}
+.component-box1{
+    background-color: hsl(31, 77%, 52%);
+}
+.component-box1 button{
+    color:  hsl(31, 77%, 52%);
+    border: 2px solid  hsl(31, 77%, 52%);
+}
+.component-box2{
+    background-color:  hsl(184, 100%, 22%);
+}
+.component-box2 button{
+    color: hsl(184, 100%, 22%);
+    border: 2px solid hsl(184, 100%, 22%);
+}
+.component-box3{
+    background-color:  hsl(179, 100%, 13%);
+}
+.component-box3 button{
+    color:  hsl(179, 100%, 13%);
+    border: 2px solid hsl(179, 100%, 13%);
+}
+h1{
+    font-weight: 400;
+    font-family: 'Big Shoulders Display', sans-serif;
+    color:  hsl(0, 0%, 95%);
+    margin-top: 2rem;
+}
+button{
+    font-weight: 700;
+    font-family: 'Lexend Deca';
+    width: 8rem;
+    height: 3rem;
+    letter-spacing: 0.025rem;
+    font-weight: 600;
+    border-radius: 35px;
+    background-color:  hsl(0, 0%, 95%);
+    margin-top: 3rem;
+    font-size: 15px;
+}
+button:hover{
+    border: 2px solid  hsl(0, 0%, 95%);
+    background-color: inherit;
+    cursor: pointer;
+    color:  hsl(0, 0%, 95%);
+}
+p{
+    font-size: 1rem;
+    color:  hsla(0, 0%, 100%, 0.75);
+    margin-top: 3rem;
+    font-weight: 700;
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+}
+@media (max-width: 712px){
+    .main-box{
+        display: block;
+        max-width: 30rem;
+        margin: auto;
+    }
+    button{
+        margin-top: 1rem;
+    }
+}
