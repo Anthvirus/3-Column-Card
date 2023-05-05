@@ -3,11 +3,12 @@
 
 
 body{
-    height: 100vh;
+    min-height: 100vh;
     background-color:  hsl(0, 0%, 95%);
     margin: auto;
     display: flex;
-    padding: 0;
+    align-items: center;
+    justify-content: center;
 }
 main{
     max-width: 55rem;
@@ -22,7 +23,6 @@ main{
     padding: 3.125rem;
     font-weight: 700;
     line-height: 1.5rem;
-    font-family: 'Big Shoulders Display', sans-serif;
     border: 1px solid inherit;
     display: block;
     flex-wrap: wrap;
@@ -56,7 +56,7 @@ h1{
 }
 button{
     font-weight: 700;
-    font-family: 'Lexend Deca';
+    font-family: 'Lexend Deca', sans-serif;
     width: 8rem;
     height: 3rem;
     letter-spacing: 0.025rem;
